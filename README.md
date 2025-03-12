@@ -50,41 +50,46 @@ git status
 Ora hai la tua repository clonata e pronta per l'uso. Puoi iniziare a lavorare sui file, creare branch, effettuare commit e pushare le modifiche! 🚀
 
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Avviare un Progetto Next.js
 
-## Getting Started
+## 1. Installare le dipendenze
 
-First, run the development server:
+Dopo essere entrato nella cartella del progetto, eseguire il comando:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```sh
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+oppure, se usi **yarn**:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+yarn install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 2. Avviare il server di sviluppo
 
-## Learn More
+Una volta installate le dipendenze, eseguire:
 
-To learn more about Next.js, take a look at the following resources:
+```sh
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+oppure con **yarn**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```sh
+yarn dev
+```
 
-## Deploy on Vercel
+## 3. Accedere all'applicazione
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Dopo aver avviato il server, l'app sarà accessibile all'indirizzo:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+http://localhost:3000
+```
+
+Apri il browser e visita quell'URL per vedere il progetto in esecuzione.
+
+
 
 
