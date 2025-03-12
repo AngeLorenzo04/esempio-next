@@ -30,10 +30,10 @@ cd ~/Documenti/Progetti
 
 ### 3. Eseguire il comando di clonazione
 
-Utilizzare il comando seguente sostituendo `<URL_REPOSITORY>` con l'URL effettivo:
+Utilizzare il comando seguente sostituendo `https://github.com/AngeLorenzo04/esempio-next.git` con l'URL effettivo:
 
 ```sh
-git clone <URL_REPOSITORY>
+git clone https://github.com/AngeLorenzo04/esempio-next.git
 ```
 Ora hai la repository clonata localmente e puoi iniziare a lavorarci.
 
