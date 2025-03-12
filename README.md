@@ -90,6 +90,43 @@ http://localhost:3000
 
 Apri il browser e visita quell'URL per vedere il progetto in esecuzione.
 
+---
+
+# Struttura del Progetto Next.js
+
+Ecco la struttura del progetto basata sui file presenti:
+
+```
+📦 root
+ ┣ 📂 about               # Cartella per la pagina 'about'
+ ┣ 📂 components          # Contiene i componenti riutilizzabili
+ ┃ ┣ 📂 Footer           # Componente per il piè di pagina
+ ┃ ┣ 📂 Header           # Componente per l'intestazione
+ ┃ ┣ 📂 Hero             # Sezione principale della homepage
+ ┃ ┗ 📂 SubHer           # Sottosezione del componente Hero
+ ┣ 📜 favicon.ico        # Icona del sito
+ ┣ 📜 globals.css        # Stili globali dell'applicazione
+ ┣ 📜 layout.tsx         # Layout principale dell'app
+ ┗ 📜 page.tsx          # Pagina principale del progetto
+```
+
+## Descrizione dei file e cartelle
+
+- **about/** → Contiene file relativi alla pagina 'About'.
+- **components/** → Cartella dove vengono salvati i componenti riutilizzabili dell'app.
+  - **Footer/** → Componente che gestisce il piè di pagina del sito.
+  - **Header/** → Componente che gestisce l'intestazione del sito, spesso include la navigazione.
+  - **Hero/** → Componente principale della homepage, solitamente usato per introdurre il contenuto chiave.
+  - **SubHer/** → Sottosezione del componente Hero, utile per ulteriori dettagli o sezioni collegate.
+- **favicon.ico** → Icona del sito web.
+- **globals.css** → File CSS con gli stili globali dell'app.
+- **layout.tsx** → Componente che gestisce il layout globale dell'applicazione.
+- **page.tsx** → Il file della pagina principale (homepage) dell'app.
+
+I componenti sono organizzati in cartelle per mantenere il codice strutturato e modulare, facilitando la manutenzione e l'espansione del progetto.
+
+
+
 
 
 
